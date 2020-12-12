@@ -4,20 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
+    <style>
+        *{
+            font-family: 'Montserrat', sans-serif;
+            flex-wrap: wrap;
+        }
+        .center-box{
+            background-color: darkblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 75%;
+            height: 230px;
+        }
+
+        .center-item{
+            background-color: blanchedalmond;
+            width: 90px;
+            height: 90px;
+        }
+        .navbar{
+            width: 75%;
+            display: flex;
+            background-color: #6496ed;
+            color: white;
+            align-items: center;
+            justify-content: space-between;
+        }
+        ul{
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            display: block;
+            margin-right: 25px;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        img{
+            width: 9%;
+            margin: 25px 0px;
+        }
+    </style>
 </head>
 <body>
     <div class="center-box">
-        <div class="center-item"></div>
+        <div class="center-item">
+
+        </div>
     </div>
-    <div>
-        <img src="dojo-icon.png" alt="dojo-icon">
-        <h1>Coding Dojo</h1>
-        <ul>
+
+
+    <div class="navbar">
+
+            <img src="dojo-icon.png" alt="dojo-icon">
+            <h1>Coding Dojo</h1>
+
+
+         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Contacts</a></li>
             <li><a href="#">About Me</a></li>
             <li><a href="#">Cool Sites</a></li>
         </ul>
+
     </div>        
 </body>
 </html>
